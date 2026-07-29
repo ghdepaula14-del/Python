@@ -13,5 +13,9 @@ print(" A margem de lucro foi de", round (margem_lucro,1))#arredondamento--> rou
 mensagem= "O Faturamento da loja foi de tanto"
 email="emailqualquer@gmail.com" # tipo string --> texto
 teve_lucro=True # variavel tipo boolean
-#mod--> %
-print(10%3)
+#mod--> % resto da divisao
+tempo_contrato= 170
+tempo_anos=170/12
+tempo_meses= 170%12
+print("tempo em anos", int(tempo_anos))
+print("tempo em meses ", tempo_meses)
