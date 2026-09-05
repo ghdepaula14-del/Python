@@ -1,4 +1,5 @@
 import numpy as np
+import time
 a=np.array(([1,2,3,4,5,6],[3,4,5,6,7,8]))
 print(a)
 print(type(a))
@@ -20,3 +21,4 @@ print(array_linear)
 print(zero_array.shape)
 print(zero_array.size)
 print(zero_array.ndim)
+
